@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ClientSection">
+      <UniqueIdentifier>{1682efa2-6453-48c8-bba8-a313dca3574d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetworkObject">
+      <UniqueIdentifier>{09f56db6-7e26-4888-ae86-093cc9a29757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iocp">
+      <UniqueIdentifier>{5270711f-1424-48d5-83c8-7580dee7dc87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EventSelect">
+      <UniqueIdentifier>{2934fb56-5e0d-4046-b737-d6c97ce30567}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PacketHandler">
+      <UniqueIdentifier>{9d1df959-705f-45b8-92ac-4bbbfb616962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PacketStream">
+      <UniqueIdentifier>{2ee622c7-bd3c-419e-bf44-5526f5b4a446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ohters">
+      <UniqueIdentifier>{5c7883b5-0b8c-4954-b5af-6c7387f7f99f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CriticalSection">
+      <UniqueIdentifier>{69f0d603-66b6-425c-9b43-8040d2a723d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AutoCriticalSection">
+      <UniqueIdentifier>{32d01961-ac2d-4b0f-a910-2f7a1809fe87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Singleton">
+      <UniqueIdentifier>{2c067e21-af36-4307-8a08-25cf52ad3107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{bcce26e6-08af-4800-824e-a08b4017b545}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XOREncrypt">
+      <UniqueIdentifier>{31d41133-164f-4b90-b266-fbb3c2780bd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers.h" />
+    <ClInclude Include="ClientSection.h">
+      <Filter>ClientSection</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkObject.h">
+      <Filter>NetworkObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Iocp.h">
+      <Filter>Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="EventSelect.h">
+      <Filter>EventSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketHandler.h">
+      <Filter>PacketHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="PacketStream.h">
+      <Filter>PacketStream</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHeaders.h" />
+    <ClInclude Include="CriticalSection.h">
+      <Filter>CriticalSection</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoCriticalSection.h">
+      <Filter>AutoCriticalSection</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Log.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="XOREncrypt.h">
+      <Filter>XOREncrypt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientSection.cpp">
+      <Filter>ClientSection</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkObject.cpp">
+      <Filter>NetworkObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Iocp.cpp">
+      <Filter>Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="EventSelect.cpp">
+      <Filter>EventSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketHandler.cpp">
+      <Filter>PacketHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="PacketStream.cpp">
+      <Filter>PacketStream</Filter>
+    </ClCompile>
+    <ClCompile Include="CriticalSection.cpp">
+      <Filter>CriticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoCriticalSection.cpp">
+      <Filter>AutoCriticalSection</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="XOREncrypt.cpp">
+      <Filter>XOREncrypt</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Ohters</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

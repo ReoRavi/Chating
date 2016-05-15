@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{318ee40c-1102-47b4-bd4c-d0f99f6d9c0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{f4aae1f8-7265-4d67-be47-f1c3141b83fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Others">
+      <UniqueIdentifier>{d8bf739a-c50c-4f70-b0f9-5072c411c1b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{8f7001f4-79c1-4ce4-95ff-5e7eea4f441d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MainMenu">
+      <UniqueIdentifier>{f8c3dd70-1d17-4f20-8ea0-58fd480102bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MainMenu\UI">
+      <UniqueIdentifier>{053c98e3-40d4-4508-aeb1-929c4b919590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MainMenu\Scene">
+      <UniqueIdentifier>{55afc50a-38b6-4bfc-a03a-b6e77c24140f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Login">
+      <UniqueIdentifier>{301a32d2-2476-4889-89b7-5a5faba41039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Login\UI">
+      <UniqueIdentifier>{84293e59-0a26-4446-b600-237dfe8a7b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Login\Scene">
+      <UniqueIdentifier>{ed6b350b-5b06-4768-8021-60ed10c68294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Room">
+      <UniqueIdentifier>{4e788951-043f-4c01-8f67-8fe1eca155fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Room\UI">
+      <UniqueIdentifier>{1c9c8c86-26f7-4957-9da1-ef87fed93f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Room\Scene">
+      <UniqueIdentifier>{2030ad7d-a495-49f6-8f62-18a0d9eb5589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Base">
+      <UniqueIdentifier>{2d93d3e7-a84f-4681-9d7f-74d4e679aad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Base\Scene">
+      <UniqueIdentifier>{898533a7-5da2-46f8-af37-b7765e194075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Base\UI">
+      <UniqueIdentifier>{e460c170-3ede-4aa3-88e6-c361e8e9efdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Lobby">
+      <UniqueIdentifier>{e387b0c7-d5bf-4e00-b53a-f19ef3dbb37f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Lobby\UI">
+      <UniqueIdentifier>{3a20f8cf-ce93-4141-88ad-87e7c10fd36a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Lobby\Scene">
+      <UniqueIdentifier>{28f3e433-fdea-4ccb-a1d4-00b12ac6e8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\CreateRoom">
+      <UniqueIdentifier>{7f9dcd3e-1d17-408c-9304-394fd42668d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\CreateRoom\UI">
+      <UniqueIdentifier>{a55e713b-4781-47ce-8534-8bc41066157f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\CreateRoom\Scene">
+      <UniqueIdentifier>{1927d3ef-0243-4fd5-8fd8-37c117ebace2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Manager">
+      <UniqueIdentifier>{1d7a497a-63b7-40ff-a7ad-88b7e5c26ce3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PT_ReadPacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="PT_WritePacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Client</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuUI.h">
+      <Filter>Scene\MainMenu\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_MainMenu.h">
+      <Filter>Scene\MainMenu\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Login.h">
+      <Filter>Scene\Login\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginUI.h">
+      <Filter>Scene\Login\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Room.h">
+      <Filter>Scene\Room\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomUI.h">
+      <Filter>Scene\Room\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Scene\Base\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene\Base\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyUI.h">
+      <Filter>Scene\Lobby\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Lobby.h">
+      <Filter>Scene\Lobby\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_CreateRoom.h">
+      <Filter>Scene\CreateRoom\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateRoomUI.h">
+      <Filter>Scene\CreateRoom\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scene\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="REOEngine_Client.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Others</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Client</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuUI.cpp">
+      <Filter>Scene\MainMenu\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_MainMenu.cpp">
+      <Filter>Scene\MainMenu\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Login.cpp">
+      <Filter>Scene\Login\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginUI.cpp">
+      <Filter>Scene\Login\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Room.cpp">
+      <Filter>Scene\Room\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomUI.cpp">
+      <Filter>Scene\Room\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Scene\Base\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene\Base\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyUI.cpp">
+      <Filter>Scene\Lobby\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Lobby.cpp">
+      <Filter>Scene\Lobby\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_CreateRoom.cpp">
+      <Filter>Scene\CreateRoom\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateRoomUI.cpp">
+      <Filter>Scene\CreateRoom\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scene\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
